@@ -2,12 +2,12 @@
 
 <div class="maincontents">
 
-<h1>some debiman installation</h1>
+<h1>Enterprise Linux/EuroLinux man pages</h1>
 
 <p>
-  You’re looking at a complete repository of all manpages contained in
-  Debian.<br>There are a couple of different ways to use this
-  repository:
+You’re looking at a complete repository of all manpages contained in Enterprise
+Linux (EuroLinux). <br>There are a couple of different ways to use
+this repository:
 </p>
 
 <ol>
@@ -20,12 +20,12 @@
   </li>
 
   <li>
-    In your browser address bar, type enough characters of manpages.debian.org,<br>
+    In your browser address bar, type enough characters of manpages.docs.euro-linux.com,<br>
     press TAB, enter the manpage name, hit ENTER.
   </li>
 
   <li>
-    Navigate to the manpage’s address, using this URL schema:<br>
+    You can navigate to the manpage’s address, using this URL schema:<br>
     <code>/&lt;suite&gt;/&lt;binarypackage&gt;/&lt;manpage&gt;.&lt;section&gt;.&lt;language&gt;.html</code><br>
     Any part (except <code>&lt;manpage&gt;</code>) can be omitted, and you will be redirected according to our best guess.
   </li>
@@ -35,7 +35,7 @@
     <ul>
       {{ range $idx, $suite := .Suites }}
       <li>
-	<a href="{{ BaseURLPath }}/contents-{{ $suite }}.html">Debian {{ $suite }}</a>
+	<a href="{{ BaseURLPath }}/contents-{{ $suite }}.html">EuroLinux {{ $suite }}</a>
       </li>
       {{ end }}
     </ul>
